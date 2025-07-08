@@ -9,6 +9,7 @@ import {
   ExternalLink,
   Download,
 } from "lucide-react";
+import { downloadResume } from "@/lib/utils";
 
 const Contact = () => {
   const contactInfo = [
@@ -158,7 +159,12 @@ const Contact = () => {
                   Connect on LinkedIn
                 </Button>
 
-                <Button variant="ghost" size="lg" className="w-full group">
+                <Button
+                  variant="ghost"
+                  size="lg"
+                  className="w-full group"
+                  onClick={() => downloadResume()}
+                >
                   <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                   Download Resume
                 </Button>

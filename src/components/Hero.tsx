@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Mail, Phone, Linkedin, Github, Download } from "lucide-react";
 
 import myself from "../assets/myself.jpeg";
+import { downloadResume } from "@/lib/utils";
 
 const Hero = () => {
   return (
@@ -35,7 +36,12 @@ const Hero = () => {
                 <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Get In Touch
               </Button>
-              <Button variant="outline" size="lg" className="group">
+              <Button
+                variant="outline"
+                size="lg"
+                className="group"
+                onClick={() => downloadResume()}
+              >
                 <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Download Resume
               </Button>
