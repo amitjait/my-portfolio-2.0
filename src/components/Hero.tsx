@@ -24,17 +24,22 @@ const Hero = () => {
                 Software Development Engineer
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Skilled software developer with 1.5+ years of experience
-                building full-stack web applications using React, Node.js, and
-                MySQL. Passionate about clean code, scalable systems, and
-                continuous learning.
+                Skilled software developer with 2+ years of experience building
+                full-stack web applications using React, Node.js, and MySQL.
+                Passionate about clean code, scalable systems, and continuous
+                learning.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg" className="group">
-                <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Get In Touch
+                <a
+                  href="mailto:amit.rimit591@gmail.com"
+                  className="group flex items-center"
+                >
+                  <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                  Get In Touch
+                </a>
               </Button>
               <Button
                 variant="outline"
@@ -85,7 +90,7 @@ const Hero = () => {
                     Software Development Engineer
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    1.5+ years experience • 200+ DSA problems solved
+                    2+ years experience • 250+ DSA problems solved
                   </p>
                 </div>
 
