@@ -11,7 +11,7 @@ const Experience = () => {
       duration: "Oct 2023 - Present",
       type: "Full-time",
       achievements: [
-        "Handling production deployments and environment monitoring, ensuring smooth releases, quick hotfixes, and stable performance",
+        "Handling production deployments and environment, ensuring smooth releases, quick hotfixes, and stable performance",
         "Built data-driven dashboards (Admin, Dealer, Accounts, Ops) with React, Node.js, and REST APIs, enabling faster cross-team reporting and decision-making",
         "Automated policy creation, dealership onboarding, and pricing workflows, cutting manual effort by 60–70% and saving 15+ hours/week",
         "Developed dynamic Pricelist & Revenue Generators with Excel import/export, improving reporting accuracy for finance and operations teams",
