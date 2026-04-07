@@ -24,10 +24,13 @@ const Hero = () => {
                 Software Development Engineer
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Skilled software developer with 2+ years of experience building
-                full-stack web applications using React, Node.js, and MySQL.
-                Passionate about clean code, scalable systems, and continuous
-                learning.
+                Software Development Engineer with 2.5+ years of experience in
+                building scalable full-stack applications using React, Node.js,
+                and MySQL. Experienced in designing REST APIs, optimizing
+                workflows, and managing production deployments with a focus on
+                performance and reliability. Delivered automation solutions
+                reducing manual effort by 60–70% and improving reporting
+                accuracy.
               </p>
             </div>
 
