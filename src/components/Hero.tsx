@@ -5,8 +5,10 @@ import { MapPin, Mail, Phone, Linkedin, Github, Download } from "lucide-react";
 
 import myself from "../assets/myself.jpeg";
 import { downloadResume } from "@/lib/utils";
+import { useExperience } from "@/hooks/use-experience";
 
 const Hero = () => {
+  const experience = useExperience();
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-hero px-4 py-16">
       <div className="container mx-auto max-w-6xl">
@@ -24,13 +26,13 @@ const Hero = () => {
                 Software Development Engineer
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Software Development Engineer with 2.5+ years of experience in
-                building scalable full-stack applications using React, Node.js,
-                and MySQL. Experienced in designing REST APIs, optimizing
-                workflows, and managing production deployments with a focus on
-                performance and reliability. Delivered automation solutions
-                reducing manual effort by 60–70% and improving reporting
-                accuracy.
+                Software Development Engineer with {experience} years of
+                experience in building scalable full-stack applications using
+                React, Node.js, and MySQL. Experienced in designing REST APIs,
+                optimizing workflows, and managing production deployments with a
+                focus on performance and reliability. Delivered automation
+                solutions reducing manual effort by 60–70% and improving
+                reporting accuracy.
               </p>
             </div>
 
@@ -93,7 +95,7 @@ const Hero = () => {
                     Software Development Engineer
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    2+ years experience • 250+ DSA problems solved
+                    {experience} years experience • 250+ DSA problems solved
                   </p>
                 </div>
 
